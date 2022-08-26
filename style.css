@@ -264,7 +264,6 @@ button:hover {
     p{
         font-size: 1em;
     } 
-
 }
 
 @media only screen and (max-width: 280px) {
@@ -306,5 +305,4 @@ button:hover {
     p{
         font-size: 1em;
     } 
-
 }
