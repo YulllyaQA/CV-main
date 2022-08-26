@@ -84,7 +84,7 @@ a{
     border-radius: 5px;
     background-color: black;
     box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
-    color: #1E5945;
+    color: #006B3C;
     font-weight: bold;
     text-shadow: #00693E 1px 0 10px;
     margin-right: auto;
@@ -187,7 +187,7 @@ button:hover {
 @media only screen and (max-width: 768px) {
 
 	.wrap{
-    width: 312px;
+    width: 314px;
     }
     .photo{
     width: 150px;
@@ -205,7 +205,7 @@ button:hover {
 
     .projects{
 	text-align: center;
-	width: 125px;
+	width: 183px;
     }
 
     h2{
@@ -222,7 +222,7 @@ button:hover {
      
     p{
     font-size: 1.5em; 
-
+    } 
 }
 
 @media only screen and (max-width: 576px) {
@@ -237,16 +237,16 @@ button:hover {
 
     .contacts{
 	text-align: center;
-	width: 57px;
+	width: 52px;
     }
     
     .wrap{
-    width: 159px;
+    width: 178px;
     }
 
     .projects{
 	text-align: center;
-	width: 95px;
+	width: 108px;
     }
 
     h2{
@@ -262,6 +262,49 @@ button:hover {
     }
      
     p{
-    font-size: 1em; 
+    font-size: 1em;
+    } 
+
+}
+
+@media only screen and (max-width: 280px) {
+
+    .wrap{
+    width: 312px;
+    }
+    .photo{
+    width: 100px;
+    height: 100px;
+    }
+
+    .contacts{
+    text-align: center;
+    width: 52px;
+    }
+    
+    .wrap{
+    width: 162px;
+    }
+
+    .projects{
+    text-align: center;
+    width: 108px;
+    }
+
+    h2{
+    font-size: 0.7em;
+    }
+    
+    a{
+    font-size: 0.6em;
+    }
+
+    h1{
+    font-size: 1.5em;
+    }
+     
+    p{
+    font-size: 1em;
+    } 
 
 }
